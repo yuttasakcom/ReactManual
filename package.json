@@ -1,0 +1,8 @@
+{
+  "name": "ReactManual",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:yuttasakcom/ReactManual.git",
+  "author": "YoProgrammer <yuttasakcom@gmail.com>",
+  "license": "MIT"
+}

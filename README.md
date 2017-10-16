@@ -7,9 +7,8 @@
 ## JSX
 > Javascript XML
 
-```html
 index.html
---------------------
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,9 +26,8 @@ index.html
 </html>
 ```
 
-```javascript
 app.js
---------------------
+```javascript
 var template = React.createElement(
   "h1",
   { id: "someid" },

@@ -7,8 +7,9 @@
 ## JSX
 > Javascript XML
 
-index.html
 ```html
+index.html
+--------------------
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,11 +27,12 @@ index.html
 </html>
 ```
 
-app.js
 ```javascript
+app.js
+--------------------
 var template = React.createElement(
-  "p",
-  null,
+  "h1",
+  { id: "someid" },
   "Hello JSX!"
 );
 

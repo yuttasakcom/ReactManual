@@ -1,6 +1,6 @@
 var template = React.createElement(
-  "p",
-  null,
+  "h1",
+  { id: "someid" },
   "Hello JSX!"
 );
 

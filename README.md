@@ -3,6 +3,7 @@
 
 ## Table of Contents
 - [JSX](#jsx)
+- [Babel](#babel)
 
 ## JSX
 > Javascript XML
@@ -36,3 +37,6 @@ var template = React.createElement(
 
 ReactDOM.render(template, document.getElementById('app'));
 ```
+
+## Babel
+> yarn global add babel-cli

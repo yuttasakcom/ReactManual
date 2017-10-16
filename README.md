@@ -8,7 +8,7 @@
 ## JSX
 > Javascript XML
 
-index.html
+public\index.html
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -27,7 +27,7 @@ index.html
 </html>
 ```
 
-app.js
+public/app.js
 ```javascript
 var template = React.createElement(
   "h1",
@@ -39,4 +39,13 @@ ReactDOM.render(template, document.getElementById('app'));
 ```
 
 ## Babel
-> yarn global add babel-cli
+- yarn global add babel-cli
+- yarn add babel-preset-react babel-preset-env
+
+src/app.js
+```javascript
+var template = <h1 id="someid">Hello JSX!</h1>
+
+ReactDOM.render(template, document.getElementById('app'));
+```
+- babel src/app.js --out-file public/scripts/app.js --presets=env,react

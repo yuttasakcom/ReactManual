@@ -1,3 +1,5 @@
+"use strict";
+
 var template = React.createElement(
   "h1",
   { id: "someid" },

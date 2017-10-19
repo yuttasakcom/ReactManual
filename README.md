@@ -52,4 +52,5 @@ ReactDOM.render(template, document.getElementById('app'));
 - babel src/app.js --out-file public/scripts/app.js --presets=env,react --watch
 
 ## Webpack
-[Webpack Manual](https://github.com/yuttasakcom/WebpackManual)
+คู่มือการใช้งาน [Webpack](https://github.com/yuttasakcom/WebpackManual) ฉบับ YoProgrammer
+

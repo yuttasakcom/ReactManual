@@ -1,3 +1,8 @@
-var template = <h1 id="someid">Hello JSX!</h1>
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-ReactDOM.render(template, document.getElementById('app'));
+const App = () => (
+  <div>Hello</div>
+)
+
+ReactDOM.render(<App />, document.getElementById('app'))

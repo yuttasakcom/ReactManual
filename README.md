@@ -4,6 +4,7 @@
 ## Table of Contents
 - [JSX](#jsx)
 - [Babel](#babel)
+- [Webpack](#webpack)
 
 ## JSX
 > Javascript XML
@@ -48,4 +49,7 @@ var template = <h1 id="someid">Hello JSX!</h1>
 
 ReactDOM.render(template, document.getElementById('app'));
 ```
-- babel src/app.js --out-file public/scripts/app.js --presets=env,react
+- babel src/app.js --out-file public/scripts/app.js --presets=env,react --watch
+
+## Webpack
+[Webpack Manual](https://github.com/yuttasakcom/WebpackManual)

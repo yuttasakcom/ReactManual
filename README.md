@@ -9,6 +9,8 @@
 ## JSX
 > Javascript XML
 
+[Js Bin](http://jsbin.com)
+
 public\index.html
 ```html
 <!DOCTYPE html>

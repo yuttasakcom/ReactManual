@@ -60,15 +60,15 @@ module: {
       "presets": ["env"]
     }
     ```
-
-src/app.js
-```javascript
-var template = <h1 id="someid">Hello JSX!</h1>
-
-ReactDOM.render(template, document.getElementById('app'));
-```
-- babel src/app.js --out-file public/scripts/app.js --presets=env,react --watch
-
+- Plugin React
+  - Shell
+    > npm install --save-dev babel-cli babel-preset-react
+  - .babelrc
+    ```javascript
+    {
+      "presets": ["react"]
+    }
+    ```
 ## Webpack
 คู่มือการใช้งาน [Webpack](https://github.com/yuttasakcom/WebpackManual) ฉบับ YoProgrammer
 

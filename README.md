@@ -40,8 +40,26 @@ ReactDOM.render(template, document.getElementById('app'));
 ```
 
 ## Babel
-- yarn global add babel-cli
-- yarn add babel-preset-react babel-preset-env
+- Shell
+> npm install --save-dev babel-loader babel-core
+
+- Via config
+```javascript
+module: {
+  rules: [
+    { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" }
+  ]
+}
+```
+- Create .babelrc configuration file
+  - Shell
+    > npm install babel-preset-env --save-dev
+  - .babelrc
+    ```javascript
+    {
+      "presets": ["env"]
+    }
+    ```
 
 src/app.js
 ```javascript

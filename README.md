@@ -1,5 +1,5 @@
-## React Manual
-> คู่มือการใช้งาน React ฉบับ YoProgrammer
+﻿## React Manual
+> คู่มือการใช้งาน React
 
 ## Table of Contents
 - [JSX](#jsx)
